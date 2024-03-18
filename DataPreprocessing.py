@@ -21,7 +21,7 @@ teams_pd = pd.read_csv('Data/KaggleData/MTeams.csv')
 tourney_compact_pd = pd.read_csv('Data/KaggleData/MNCAATourneyCompactResults.csv')
 conference_pd = pd.read_csv('Data/KaggleData/Conference.csv')
 tourney_results_pd = pd.read_csv('Data/KaggleData/TourneyResults.csv')
-tourney_seeds_pd = pd.read_csv('Data/KaggleData/2024_tourney_seeds.csv')
+tourney_seeds_pd = pd.read_csv('Data/KaggleData/NCAATourneySeeds.csv')
 team_conferences_pd = pd.read_csv('Data/KaggleData/MTeamConferences.csv')
 
 ############################## DATA STRUCTURES ##############################
