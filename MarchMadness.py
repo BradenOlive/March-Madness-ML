@@ -19,7 +19,6 @@ from sklearn.svm import SVC
 from sklearn import linear_model
 from sklearn import tree
 from sklearn.model_selection import cross_val_score
-from keras.utils import np_utils
 from sklearn.neighbors import KNeighborsClassifier
 import matplotlib
 matplotlib.use('TkAgg')
@@ -36,7 +35,6 @@ from sklearn.metrics import classification_report
 from sklearn.calibration import CalibratedClassifierCV
 import urllib
 from sklearn.svm import LinearSVC
-import xgboost as xgb
 from sklearn.model_selection import GridSearchCV
 from datetime import datetime
 import random
@@ -64,11 +62,11 @@ curYear = int(input('What year are these predictions for?\n'))
 
 sample_sub_pd = pd.read_csv('Data/KaggleData/SampleSubmissionStage1.csv')
 sample_sub_pd2 = pd.read_csv('Data/KaggleData/SampleSubmissionStage2.csv')
-teams_pd = pd.read_csv('Data/KaggleData/Teams.csv')
+teams_pd = pd.read_csv('Data/KaggleData/MTeams.csv')
 
 ############################## TRAIN MODEL ##############################
 
-model = GradientBoostingRegressor(n_estimators=100, max_depth=5)
+model = GradientBoostingRegressor(n_estimators=200, max_depth=10)
 
 categories=['Wins','PPG','PPGA','PowerConf','3PG', 'APG','TOP','Conference Champ','Tourney Conference Champ',
            'Seed','SOS','SRS', 'RPG', 'SPG', 'Tourney Appearances','National Championships','Location']
@@ -107,7 +105,7 @@ def predictGame(team_1_vector, team_2_vector, home, modelUsed):
 def loadTeamVectors(years):
 	listDictionaries = []
 	for year in years:
-		curVectors = np.load("Data/PrecomputedMatrices/TeamVectors/" + str(year) + "TeamVectors.npy").item()
+		curVectors = np.load("Data/PrecomputedMatrices/TeamVectors/" + str(year) + "TeamVectors.npy", allow_pickle=True).item()
 		listDictionaries.append(curVectors)
 	return listDictionaries
 
@@ -128,7 +126,7 @@ def createPrediction(stage2 = False):
 
 	predictionModel = GradientBoostingRegressor(n_estimators=100, max_depth=5)
 	predictionModel.fit(xTrain, yTrain)
-
+'''
 	for index, row in localPd.iterrows():
 		matchupId = row['ID']
 		year = int(matchupId[0:4]) 
@@ -152,7 +150,7 @@ def createPrediction(stage2 = False):
 
 #createPrediction()
 createPrediction(stage2=True)
-
+'''
 ############################## PREDICTING THIS YEAR'S BRACKET ##############################
 
 def trainModel():
@@ -185,27 +183,10 @@ def findWinner(team1, team2, modelUsed):
 		print ("Probability that {0} wins: {1}".format(team1, prediction))
 
 
-'''
+
 trainedModel = trainModel()
 # First round games in the East for example
 
-randomWinner('Duke', 'NC Central', trainedModel)
-randomWinner('VA Commonwealth', 'UCF', trainedModel)
-randomWinner('Mississippi St', 'Liberty', trainedModel)
-randomWinner('Virginia Tech', 'St Louis', trainedModel)
-randomWinner('Maryland', 'Belmont', trainedModel)
-randomWinner('LSU', 'Yale', trainedModel)
-randomWinner('Louisville', 'Minnesota', trainedModel)
-randomWinner('Michigan St', 'Bradley', trainedModel)
 
-# First round games in the South for example
+findWinner('Nebraska', 'Texas A&M', trainedModel)
 
-findWinner('Virginia', 'Gardner Webb', trainedModel)
-findWinner('Mississippi', 'Oklahoma', trainedModel)
-findWinner('Wisconsin', 'Oregon', trainedModel)
-findWinner('Kansas St', 'UC Irvine', trainedModel)
-findWinner('Villanova', 'St Mary\'s CA', trainedModel)
-findWinner('Purdue', 'Old Dominion', trainedModel)
-findWinner('Cincinnati', 'Iowa', trainedModel)
-findWinner('Colgate', 'Tennessee', trainedModel)
-'''
