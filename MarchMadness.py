@@ -64,30 +64,6 @@ sample_sub_pd = pd.read_csv('Data/KaggleData/SampleSubmissionStage1.csv')
 sample_sub_pd2 = pd.read_csv('Data/KaggleData/SampleSubmissionStage2.csv')
 teams_pd = pd.read_csv('Data/KaggleData/MTeams.csv')
 
-############################## TRAIN MODEL ##############################
-
-model = GradientBoostingRegressor(n_estimators=200, max_depth=10)
-
-categories=['Wins','PPG','PPGA','PowerConf','3PG', 'APG','TOP','Conference Champ','Tourney Conference Champ',
-           'Seed','SOS','SRS', 'RPG', 'SPG', 'Tourney Appearances','National Championships','Location']
-accuracy=[]
-numTrials = 1
-
-for i in range(numTrials):
-    X_train, X_test, Y_train, Y_test = train_test_split(xTrain, yTrain)
-    startTime = datetime.now() # For some timing stuff
-    results = model.fit(X_train, Y_train)
-    preds = model.predict(X_test)
-
-    preds[preds < .5] = 0
-    preds[preds >= .5] = 1
-    localAccuracy = np.mean(preds == Y_test)
-    accuracy.append(localAccuracy)
-    print ("Finished run #" + str(i) + ". Accuracy = " + str(localAccuracy))
-    print ("Time taken: " + str(datetime.now() - startTime))
-if numTrials != 0:
-	print ("The average accuracy is", sum(accuracy)/len(accuracy))
-
 ############################## TEST MODEL ##############################
 
 def predictGame(team_1_vector, team_2_vector, home, modelUsed):
@@ -100,57 +76,6 @@ def predictGame(team_1_vector, team_2_vector, home, modelUsed):
     else:
         raise AttributeError("Model does not have expected prediction method")
 
-############################## CREATE KAGGLE SUBMISSION ##############################
-
-def loadTeamVectors(years):
-	listDictionaries = []
-	for year in years:
-		curVectors = np.load("Data/PrecomputedMatrices/TeamVectors/" + str(year) + "TeamVectors.npy", allow_pickle=True).item()
-		listDictionaries.append(curVectors)
-	return listDictionaries
-
-def createPrediction(stage2 = False):
-	if stage2:
-		years = [curYear]
-		localPd = sample_sub_pd2
-	else:
-		# The years that we want to predict for
-		years = range(curYear - 4,curYear)
-		localPd = sample_sub_pd
-
-	if os.path.exists("result.csv"):
-		os.remove("result.csv")
-	listDictionaries = loadTeamVectors(years)
-	print ("Loaded the team vectors")
-	results = [[0 for x in range(2)] for x in range(len(localPd.index))]
-
-	predictionModel = GradientBoostingRegressor(n_estimators=100, max_depth=5)
-	predictionModel.fit(xTrain, yTrain)
-'''
-	for index, row in localPd.iterrows():
-		matchupId = row['ID']
-		year = int(matchupId[0:4]) 
-		teamVectors = listDictionaries[year - years[0]]
-		team1Id = int(matchupId[5:9])
-		team2Id = int(matchupId[10:14])
-		team1Vector = teamVectors[team1Id] 
-		team2Vector = teamVectors[team2Id]
-		pred1 = predictGame(team1Vector, team2Vector, 0, predictionModel)
-		pred = pred1.clip(0.,1.)
-		results[index][0] = matchupId
-		results[index][1] = pred
-	results = pd.np.array(results)
-	firstRow = [[0 for x in range(2)] for x in range(1)]
-	firstRow[0][0] = 'ID'
-	firstRow[0][1] = 'Pred'
-	with open("result.csv", "w") as f:
-		writer = csv.writer(f)
-		writer.writerows(firstRow)
-		writer.writerows(results)
-
-#createPrediction()
-createPrediction(stage2=True)
-'''
 ############################## PREDICTING THIS YEAR'S BRACKET ##############################
 
 def trainModel():
@@ -184,9 +109,33 @@ def findWinner(team1, team2, modelUsed):
 
 
 
-trainedModel = trainModel()
+############################## TRAIN MODEL ##############################
+
+model = GradientBoostingRegressor(n_estimators=100, max_depth=5)
+
+categories=['Wins','PPG','PPGA','PowerConf','3PG', 'APG','TOP','Conference Champ','Tourney Conference Champ',
+           'Seed','SOS','SRS', 'RPG', 'SPG', 'Tourney Appearances','National Championships','Location']
+accuracy=[]
+numTrials = 1
+
+for i in range(numTrials):
+    X_train, X_test, Y_train, Y_test = train_test_split(xTrain, yTrain)
+    startTime = datetime.now() # For some timing stuff
+    trainedModel = trainModel()
+    preds = trainedModel.predict(X_test)
+2024
+    preds[preds < .5] = 0
+    preds[preds >= .5] = 1
+    localAccuracy = np.mean(preds == Y_test)
+    accuracy.append(localAccuracy)
+    print ("Finished run #" + str(i) + ". Accuracy = " + str(localAccuracy))
+    print ("Time taken: " + str(datetime.now() - startTime))
+if numTrials != 0:
+	print ("The average accuracy is", sum(accuracy)/len(accuracy))
+
+
+
 # First round games in the East for example
 
 
-findWinner('Nebraska', 'Texas A&M', trainedModel)
 
