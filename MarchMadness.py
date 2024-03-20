@@ -106,7 +106,7 @@ def findWinner(team1, team2, modelUsed):
 		print ("Probability that {0} wins: {1}".format(team2, 1 - prediction))
 	else:
 		print ("Probability that {0} wins: {1}".format(team1, prediction))
-
+	return prediction
 
 
 ############################## TRAIN MODEL ##############################
@@ -123,7 +123,6 @@ for i in range(numTrials):
     startTime = datetime.now() # For some timing stuff
     trainedModel = trainModel()
     preds = trainedModel.predict(X_test)
-2024
     preds[preds < .5] = 0
     preds[preds >= .5] = 1
     localAccuracy = np.mean(preds == Y_test)
@@ -136,6 +135,12 @@ if numTrials != 0:
 
 
 # First round games in the East for example
+	
+matchupFile = open('2024_Matchups.csv')
+reader = csv.reader(matchupFile)
 
-
-
+for row in reader:
+	pred = findWinner(str(row[0]),str(row[1]),trainedModel)
+	with open("output.txt", "a") as f:	
+    		f.write(pred)
+    		f.write("\n")
