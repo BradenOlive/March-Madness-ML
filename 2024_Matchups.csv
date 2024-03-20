@@ -1,4 +1,5 @@
-﻿Connecticut,Connecticut
+﻿Team1,Team2
+Connecticut,Connecticut
 Connecticut,Stetson
 Connecticut,FL Atlantic
 Connecticut,Northwestern
@@ -59,7 +60,7 @@ Connecticut,Oregon
 Connecticut,Creighton
 Connecticut,Akron
 Connecticut,Texas
-Connecticut,Virginia
+Connecticut,Colorado St
 Connecticut,Tennessee
 Connecticut,St Peter's
 Stetson,Connecticut
@@ -123,7 +124,7 @@ Stetson,Oregon
 Stetson,Creighton
 Stetson,Akron
 Stetson,Texas
-Stetson,Virginia
+Stetson,Colorado St
 Stetson,Tennessee
 Stetson,St Peter's
 FL Atlantic,Connecticut
@@ -187,7 +188,7 @@ FL Atlantic,Oregon
 FL Atlantic,Creighton
 FL Atlantic,Akron
 FL Atlantic,Texas
-FL Atlantic,Virginia
+FL Atlantic,Colorado St
 FL Atlantic,Tennessee
 FL Atlantic,St Peter's
 Northwestern,Connecticut
@@ -251,7 +252,7 @@ Northwestern,Oregon
 Northwestern,Creighton
 Northwestern,Akron
 Northwestern,Texas
-Northwestern,Virginia
+Northwestern,Colorado St
 Northwestern,Tennessee
 Northwestern,St Peter's
 San Diego St,Connecticut
@@ -315,7 +316,7 @@ San Diego St,Oregon
 San Diego St,Creighton
 San Diego St,Akron
 San Diego St,Texas
-San Diego St,Virginia
+San Diego St,Colorado St
 San Diego St,Tennessee
 San Diego St,St Peter's
 UAB,Connecticut
@@ -379,7 +380,7 @@ UAB,Oregon
 UAB,Creighton
 UAB,Akron
 UAB,Texas
-UAB,Virginia
+UAB,Colorado St
 UAB,Tennessee
 UAB,St Peter's
 Auburn,Connecticut
@@ -443,7 +444,7 @@ Auburn,Oregon
 Auburn,Creighton
 Auburn,Akron
 Auburn,Texas
-Auburn,Virginia
+Auburn,Colorado St
 Auburn,Tennessee
 Auburn,St Peter's
 Yale,Connecticut
@@ -507,7 +508,7 @@ Yale,Oregon
 Yale,Creighton
 Yale,Akron
 Yale,Texas
-Yale,Virginia
+Yale,Colorado St
 Yale,Tennessee
 Yale,St Peter's
 BYU,Connecticut
@@ -571,7 +572,7 @@ BYU,Oregon
 BYU,Creighton
 BYU,Akron
 BYU,Texas
-BYU,Virginia
+BYU,Colorado St
 BYU,Tennessee
 BYU,St Peter's
 Duquesne,Connecticut
@@ -635,7 +636,7 @@ Duquesne,Oregon
 Duquesne,Creighton
 Duquesne,Akron
 Duquesne,Texas
-Duquesne,Virginia
+Duquesne,Colorado St
 Duquesne,Tennessee
 Duquesne,St Peter's
 Illinois,Connecticut
@@ -699,7 +700,7 @@ Illinois,Oregon
 Illinois,Creighton
 Illinois,Akron
 Illinois,Texas
-Illinois,Virginia
+Illinois,Colorado St
 Illinois,Tennessee
 Illinois,St Peter's
 Morehead St,Connecticut
@@ -763,7 +764,7 @@ Morehead St,Oregon
 Morehead St,Creighton
 Morehead St,Akron
 Morehead St,Texas
-Morehead St,Virginia
+Morehead St,Colorado St
 Morehead St,Tennessee
 Morehead St,St Peter's
 Washington St,Connecticut
@@ -827,7 +828,7 @@ Washington St,Oregon
 Washington St,Creighton
 Washington St,Akron
 Washington St,Texas
-Washington St,Virginia
+Washington St,Colorado St
 Washington St,Tennessee
 Washington St,St Peter's
 Drake,Connecticut
@@ -891,7 +892,7 @@ Drake,Oregon
 Drake,Creighton
 Drake,Akron
 Drake,Texas
-Drake,Virginia
+Drake,Colorado St
 Drake,Tennessee
 Drake,St Peter's
 Iowa St,Connecticut
@@ -955,7 +956,7 @@ Iowa St,Oregon
 Iowa St,Creighton
 Iowa St,Akron
 Iowa St,Texas
-Iowa St,Virginia
+Iowa St,Colorado St
 Iowa St,Tennessee
 Iowa St,St Peter's
 S Dakota St,Connecticut
@@ -1019,7 +1020,7 @@ S Dakota St,Oregon
 S Dakota St,Creighton
 S Dakota St,Akron
 S Dakota St,Texas
-S Dakota St,Virginia
+S Dakota St,Colorado St
 S Dakota St,Tennessee
 S Dakota St,St Peter's
 Houston,Connecticut
@@ -1083,7 +1084,7 @@ Houston,Oregon
 Houston,Creighton
 Houston,Akron
 Houston,Texas
-Houston,Virginia
+Houston,Colorado St
 Houston,Tennessee
 Houston,St Peter's
 Longwood,Connecticut
@@ -1147,7 +1148,7 @@ Longwood,Oregon
 Longwood,Creighton
 Longwood,Akron
 Longwood,Texas
-Longwood,Virginia
+Longwood,Colorado St
 Longwood,Tennessee
 Longwood,St Peter's
 Nebraska,Connecticut
@@ -1211,7 +1212,7 @@ Nebraska,Oregon
 Nebraska,Creighton
 Nebraska,Akron
 Nebraska,Texas
-Nebraska,Virginia
+Nebraska,Colorado St
 Nebraska,Tennessee
 Nebraska,St Peter's
 Texas A&M,Connecticut
@@ -1275,7 +1276,7 @@ Texas A&M,Oregon
 Texas A&M,Creighton
 Texas A&M,Akron
 Texas A&M,Texas
-Texas A&M,Virginia
+Texas A&M,Colorado St
 Texas A&M,Tennessee
 Texas A&M,St Peter's
 Wisconsin,Connecticut
@@ -1339,7 +1340,7 @@ Wisconsin,Oregon
 Wisconsin,Creighton
 Wisconsin,Akron
 Wisconsin,Texas
-Wisconsin,Virginia
+Wisconsin,Colorado St
 Wisconsin,Tennessee
 Wisconsin,St Peter's
 James Madison,Connecticut
@@ -1403,7 +1404,7 @@ James Madison,Oregon
 James Madison,Creighton
 James Madison,Akron
 James Madison,Texas
-James Madison,Virginia
+James Madison,Colorado St
 James Madison,Tennessee
 James Madison,St Peter's
 Duke,Connecticut
@@ -1467,7 +1468,7 @@ Duke,Oregon
 Duke,Creighton
 Duke,Akron
 Duke,Texas
-Duke,Virginia
+Duke,Colorado St
 Duke,Tennessee
 Duke,St Peter's
 Vermont,Connecticut
@@ -1531,7 +1532,7 @@ Vermont,Oregon
 Vermont,Creighton
 Vermont,Akron
 Vermont,Texas
-Vermont,Virginia
+Vermont,Colorado St
 Vermont,Tennessee
 Vermont,St Peter's
 Texas Tech,Connecticut
@@ -1595,7 +1596,7 @@ Texas Tech,Oregon
 Texas Tech,Creighton
 Texas Tech,Akron
 Texas Tech,Texas
-Texas Tech,Virginia
+Texas Tech,Colorado St
 Texas Tech,Tennessee
 Texas Tech,St Peter's
 NC State,Connecticut
@@ -1659,7 +1660,7 @@ NC State,Oregon
 NC State,Creighton
 NC State,Akron
 NC State,Texas
-NC State,Virginia
+NC State,Colorado St
 NC State,Tennessee
 NC State,St Peter's
 Kentucky,Connecticut
@@ -1723,7 +1724,7 @@ Kentucky,Oregon
 Kentucky,Creighton
 Kentucky,Akron
 Kentucky,Texas
-Kentucky,Virginia
+Kentucky,Colorado St
 Kentucky,Tennessee
 Kentucky,St Peter's
 Oakland,Connecticut
@@ -1787,7 +1788,7 @@ Oakland,Oregon
 Oakland,Creighton
 Oakland,Akron
 Oakland,Texas
-Oakland,Virginia
+Oakland,Colorado St
 Oakland,Tennessee
 Oakland,St Peter's
 Florida,Connecticut
@@ -1851,7 +1852,7 @@ Florida,Oregon
 Florida,Creighton
 Florida,Akron
 Florida,Texas
-Florida,Virginia
+Florida,Colorado St
 Florida,Tennessee
 Florida,St Peter's
 Boise St,Connecticut
@@ -1915,7 +1916,7 @@ Boise St,Oregon
 Boise St,Creighton
 Boise St,Akron
 Boise St,Texas
-Boise St,Virginia
+Boise St,Colorado St
 Boise St,Tennessee
 Boise St,St Peter's
 Marquette,Connecticut
@@ -1979,7 +1980,7 @@ Marquette,Oregon
 Marquette,Creighton
 Marquette,Akron
 Marquette,Texas
-Marquette,Virginia
+Marquette,Colorado St
 Marquette,Tennessee
 Marquette,St Peter's
 WKU,Connecticut
@@ -2043,7 +2044,7 @@ WKU,Oregon
 WKU,Creighton
 WKU,Akron
 WKU,Texas
-WKU,Virginia
+WKU,Colorado St
 WKU,Tennessee
 WKU,St Peter's
 North Carolina,Connecticut
@@ -2107,7 +2108,7 @@ North Carolina,Oregon
 North Carolina,Creighton
 North Carolina,Akron
 North Carolina,Texas
-North Carolina,Virginia
+North Carolina,Colorado St
 North Carolina,Tennessee
 North Carolina,St Peter's
 Wagner,Connecticut
@@ -2171,7 +2172,7 @@ Wagner,Oregon
 Wagner,Creighton
 Wagner,Akron
 Wagner,Texas
-Wagner,Virginia
+Wagner,Colorado St
 Wagner,Tennessee
 Wagner,St Peter's
 Mississippi St,Connecticut
@@ -2235,7 +2236,7 @@ Mississippi St,Oregon
 Mississippi St,Creighton
 Mississippi St,Akron
 Mississippi St,Texas
-Mississippi St,Virginia
+Mississippi St,Colorado St
 Mississippi St,Tennessee
 Mississippi St,St Peter's
 Michigan St,Connecticut
@@ -2299,7 +2300,7 @@ Michigan St,Oregon
 Michigan St,Creighton
 Michigan St,Akron
 Michigan St,Texas
-Michigan St,Virginia
+Michigan St,Colorado St
 Michigan St,Tennessee
 Michigan St,St Peter's
 St Mary's CA,Connecticut
@@ -2363,7 +2364,7 @@ St Mary's CA,Oregon
 St Mary's CA,Creighton
 St Mary's CA,Akron
 St Mary's CA,Texas
-St Mary's CA,Virginia
+St Mary's CA,Colorado St
 St Mary's CA,Tennessee
 St Mary's CA,St Peter's
 Grand Canyon,Connecticut
@@ -2427,7 +2428,7 @@ Grand Canyon,Oregon
 Grand Canyon,Creighton
 Grand Canyon,Akron
 Grand Canyon,Texas
-Grand Canyon,Virginia
+Grand Canyon,Colorado St
 Grand Canyon,Tennessee
 Grand Canyon,St Peter's
 Alabama,Connecticut
@@ -2491,7 +2492,7 @@ Alabama,Oregon
 Alabama,Creighton
 Alabama,Akron
 Alabama,Texas
-Alabama,Virginia
+Alabama,Colorado St
 Alabama,Tennessee
 Alabama,St Peter's
 Charleston So,Connecticut
@@ -2555,7 +2556,7 @@ Charleston So,Oregon
 Charleston So,Creighton
 Charleston So,Akron
 Charleston So,Texas
-Charleston So,Virginia
+Charleston So,Colorado St
 Charleston So,Tennessee
 Charleston So,St Peter's
 Clemson,Connecticut
@@ -2619,7 +2620,7 @@ Clemson,Oregon
 Clemson,Creighton
 Clemson,Akron
 Clemson,Texas
-Clemson,Virginia
+Clemson,Colorado St
 Clemson,Tennessee
 Clemson,St Peter's
 New Mexico,Connecticut
@@ -2683,7 +2684,7 @@ New Mexico,Oregon
 New Mexico,Creighton
 New Mexico,Akron
 New Mexico,Texas
-New Mexico,Virginia
+New Mexico,Colorado St
 New Mexico,Tennessee
 New Mexico,St Peter's
 Baylor,Connecticut
@@ -2747,7 +2748,7 @@ Baylor,Oregon
 Baylor,Creighton
 Baylor,Akron
 Baylor,Texas
-Baylor,Virginia
+Baylor,Colorado St
 Baylor,Tennessee
 Baylor,St Peter's
 Colgate,Connecticut
@@ -2811,7 +2812,7 @@ Colgate,Oregon
 Colgate,Creighton
 Colgate,Akron
 Colgate,Texas
-Colgate,Virginia
+Colgate,Colorado St
 Colgate,Tennessee
 Colgate,St Peter's
 Dayton,Connecticut
@@ -2875,7 +2876,7 @@ Dayton,Oregon
 Dayton,Creighton
 Dayton,Akron
 Dayton,Texas
-Dayton,Virginia
+Dayton,Colorado St
 Dayton,Tennessee
 Dayton,St Peter's
 Nevada,Connecticut
@@ -2939,7 +2940,7 @@ Nevada,Oregon
 Nevada,Creighton
 Nevada,Akron
 Nevada,Texas
-Nevada,Virginia
+Nevada,Colorado St
 Nevada,Tennessee
 Nevada,St Peter's
 Arizona,Connecticut
@@ -3003,7 +3004,7 @@ Arizona,Oregon
 Arizona,Creighton
 Arizona,Akron
 Arizona,Texas
-Arizona,Virginia
+Arizona,Colorado St
 Arizona,Tennessee
 Arizona,St Peter's
 Long Beach St,Connecticut
@@ -3067,7 +3068,7 @@ Long Beach St,Oregon
 Long Beach St,Creighton
 Long Beach St,Akron
 Long Beach St,Texas
-Long Beach St,Virginia
+Long Beach St,Colorado St
 Long Beach St,Tennessee
 Long Beach St,St Peter's
 Purdue,Connecticut
@@ -3131,7 +3132,7 @@ Purdue,Oregon
 Purdue,Creighton
 Purdue,Akron
 Purdue,Texas
-Purdue,Virginia
+Purdue,Colorado St
 Purdue,Tennessee
 Purdue,St Peter's
 Montana St,Connecticut
@@ -3195,7 +3196,7 @@ Montana St,Oregon
 Montana St,Creighton
 Montana St,Akron
 Montana St,Texas
-Montana St,Virginia
+Montana St,Colorado St
 Montana St,Tennessee
 Montana St,St Peter's
 Utah St,Connecticut
@@ -3259,7 +3260,7 @@ Utah St,Oregon
 Utah St,Creighton
 Utah St,Akron
 Utah St,Texas
-Utah St,Virginia
+Utah St,Colorado St
 Utah St,Tennessee
 Utah St,St Peter's
 TCU,Connecticut
@@ -3323,7 +3324,7 @@ TCU,Oregon
 TCU,Creighton
 TCU,Akron
 TCU,Texas
-TCU,Virginia
+TCU,Colorado St
 TCU,Tennessee
 TCU,St Peter's
 Gonzaga,Connecticut
@@ -3387,7 +3388,7 @@ Gonzaga,Oregon
 Gonzaga,Creighton
 Gonzaga,Akron
 Gonzaga,Texas
-Gonzaga,Virginia
+Gonzaga,Colorado St
 Gonzaga,Tennessee
 Gonzaga,St Peter's
 McNeese St,Connecticut
@@ -3451,7 +3452,7 @@ McNeese St,Oregon
 McNeese St,Creighton
 McNeese St,Akron
 McNeese St,Texas
-McNeese St,Virginia
+McNeese St,Colorado St
 McNeese St,Tennessee
 McNeese St,St Peter's
 Kansas,Connecticut
@@ -3515,7 +3516,7 @@ Kansas,Oregon
 Kansas,Creighton
 Kansas,Akron
 Kansas,Texas
-Kansas,Virginia
+Kansas,Colorado St
 Kansas,Tennessee
 Kansas,St Peter's
 Samford,Connecticut
@@ -3579,7 +3580,7 @@ Samford,Oregon
 Samford,Creighton
 Samford,Akron
 Samford,Texas
-Samford,Virginia
+Samford,Colorado St
 Samford,Tennessee
 Samford,St Peter's
 South Carolina,Connecticut
@@ -3643,7 +3644,7 @@ South Carolina,Oregon
 South Carolina,Creighton
 South Carolina,Akron
 South Carolina,Texas
-South Carolina,Virginia
+South Carolina,Colorado St
 South Carolina,Tennessee
 South Carolina,St Peter's
 Oregon,Connecticut
@@ -3707,7 +3708,7 @@ Oregon,Oregon
 Oregon,Creighton
 Oregon,Akron
 Oregon,Texas
-Oregon,Virginia
+Oregon,Colorado St
 Oregon,Tennessee
 Oregon,St Peter's
 Creighton,Connecticut
@@ -3771,7 +3772,7 @@ Creighton,Oregon
 Creighton,Creighton
 Creighton,Akron
 Creighton,Texas
-Creighton,Virginia
+Creighton,Colorado St
 Creighton,Tennessee
 Creighton,St Peter's
 Akron,Connecticut
@@ -3835,7 +3836,7 @@ Akron,Oregon
 Akron,Creighton
 Akron,Akron
 Akron,Texas
-Akron,Virginia
+Akron,Colorado St
 Akron,Tennessee
 Akron,St Peter's
 Texas,Connecticut
@@ -3899,73 +3900,73 @@ Texas,Oregon
 Texas,Creighton
 Texas,Akron
 Texas,Texas
-Texas,Virginia
+Texas,Colorado St
 Texas,Tennessee
 Texas,St Peter's
-Virginia,Connecticut
-Virginia,Stetson
-Virginia,FL Atlantic
-Virginia,Northwestern
-Virginia,San Diego St
-Virginia,UAB
-Virginia,Auburn
-Virginia,Yale
-Virginia,BYU
-Virginia,Duquesne
-Virginia,Illinois
-Virginia,Morehead St
-Virginia,Washington St
-Virginia,Drake
-Virginia,Iowa St
-Virginia,S Dakota St
-Virginia,Houston
-Virginia,Longwood
-Virginia,Nebraska
-Virginia,Texas A&M
-Virginia,Wisconsin
-Virginia,James Madison
-Virginia,Duke
-Virginia,Vermont
-Virginia,Texas Tech
-Virginia,NC State
-Virginia,Kentucky
-Virginia,Oakland
-Virginia,Florida
-Virginia,Boise St
-Virginia,Marquette
-Virginia,WKU
-Virginia,North Carolina
-Virginia,Wagner
-Virginia,Mississippi St
-Virginia,Michigan St
-Virginia,St Mary's CA
-Virginia,Grand Canyon
-Virginia,Alabama
-Virginia,Charleston So
-Virginia,Clemson
-Virginia,New Mexico
-Virginia,Baylor
-Virginia,Colgate
-Virginia,Dayton
-Virginia,Nevada
-Virginia,Arizona
-Virginia,Long Beach St
-Virginia,Purdue
-Virginia,Montana St
-Virginia,Utah St
-Virginia,TCU
-Virginia,Gonzaga
-Virginia,McNeese St
-Virginia,Kansas
-Virginia,Samford
-Virginia,South Carolina
-Virginia,Oregon
-Virginia,Creighton
-Virginia,Akron
-Virginia,Texas
-Virginia,Virginia
-Virginia,Tennessee
-Virginia,St Peter's
+Colorado St,Connecticut
+Colorado St,Stetson
+Colorado St,FL Atlantic
+Colorado St,Northwestern
+Colorado St,San Diego St
+Colorado St,UAB
+Colorado St,Auburn
+Colorado St,Yale
+Colorado St,BYU
+Colorado St,Duquesne
+Colorado St,Illinois
+Colorado St,Morehead St
+Colorado St,Washington St
+Colorado St,Drake
+Colorado St,Iowa St
+Colorado St,S Dakota St
+Colorado St,Houston
+Colorado St,Longwood
+Colorado St,Nebraska
+Colorado St,Texas A&M
+Colorado St,Wisconsin
+Colorado St,James Madison
+Colorado St,Duke
+Colorado St,Vermont
+Colorado St,Texas Tech
+Colorado St,NC State
+Colorado St,Kentucky
+Colorado St,Oakland
+Colorado St,Florida
+Colorado St,Boise St
+Colorado St,Marquette
+Colorado St,WKU
+Colorado St,North Carolina
+Colorado St,Wagner
+Colorado St,Mississippi St
+Colorado St,Michigan St
+Colorado St,St Mary's CA
+Colorado St,Grand Canyon
+Colorado St,Alabama
+Colorado St,Charleston So
+Colorado St,Clemson
+Colorado St,New Mexico
+Colorado St,Baylor
+Colorado St,Colgate
+Colorado St,Dayton
+Colorado St,Nevada
+Colorado St,Arizona
+Colorado St,Long Beach St
+Colorado St,Purdue
+Colorado St,Montana St
+Colorado St,Utah St
+Colorado St,TCU
+Colorado St,Gonzaga
+Colorado St,McNeese St
+Colorado St,Kansas
+Colorado St,Samford
+Colorado St,South Carolina
+Colorado St,Oregon
+Colorado St,Creighton
+Colorado St,Akron
+Colorado St,Texas
+Colorado St,Colorado St
+Colorado St,Tennessee
+Colorado St,St Peter's
 Tennessee,Connecticut
 Tennessee,Stetson
 Tennessee,FL Atlantic
@@ -4027,7 +4028,7 @@ Tennessee,Oregon
 Tennessee,Creighton
 Tennessee,Akron
 Tennessee,Texas
-Tennessee,Virginia
+Tennessee,Colorado St
 Tennessee,Tennessee
 Tennessee,St Peter's
 St Peter's,Connecticut
@@ -4091,6 +4092,6 @@ St Peter's,Oregon
 St Peter's,Creighton
 St Peter's,Akron
 St Peter's,Texas
-St Peter's,Virginia
+St Peter's,Colorado St
 St Peter's,Tennessee
 St Peter's,St Peter's
